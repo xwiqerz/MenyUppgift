@@ -1,0 +1,131 @@
+header {
+	background-color: #154032;
+	height: 100px;
+	
+}
+
+.donkenlogga {
+	width:100px;
+	height:100px;
+	position:relative;
+	left:15%;
+
+}
+a {
+	text-decoration:none;
+}
+
+.headerh1 {
+	color: #ffc836;
+	text-align: center;
+	font-family: Didot LT STD; 
+	
+}
+
+.navtext {
+	color: #ffc836;
+	text-align: center;
+	 
+	
+}
+
+.meny {
+	margin-left:40%;
+	height: 100px;
+	top: 10%;
+	position:relative;
+	top:-45%;
+	background-color: #ffc836;
+	color: white;
+	padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+body {
+	background-color:#808080;
+	
+}
+
+.burgare {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:10px;
+	width:65%;
+	
+}
+
+.kontakt {
+	margin-top:100px;
+	text-align:center;
+	
+}
+
+.nuggets {
+	width: 200px;
+	height: 200px;
+	margin-left: 28%;
+	margin-top: 70px;
+	border-radius: 50%;
+}
+
+.nuggetstext {
+	margin-left:29%;
+	
+	
+}
+
+.bigmac {
+	width: 200px;
+	height: 200px;
+	margin-left:57%;
+	margin-top:-270px;
+	display:block;
+	position:relative;
+	border-radius: 50%;
+	
+}
+
+.bigmactext {
+	margin-left:61%;
+	margin-bottom:5%;
+	
+}
+
+.cheeseburgare {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: block;
+	margin-left: 28%;
+		
+}
+
+.cheeseburgaretext {
+	margin-left: 29%;
+	padding-top: 15px;
+	
+}
+
+.mySlides {
+	display:none;
+	width:100%;
+	
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+	transform: translate(0%,-50%);
+	
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}

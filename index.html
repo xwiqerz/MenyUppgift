@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> McDonalds </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="donkentwo.png" alt="najs" type="image/gif" sizes="16x16">
+</head>
+<header>
+	<a href="index.html">
+	<img class="donkenlogga" src="donkentwo.png" alt="McDonalds Logga">
+	</a>
+	
+	<a class="meny" href="menysida.html" target="_self"> Meny! </a>
+
+</header>
+<nav>
+	<h1 class="navtext">
+		Välkommen till Sveriges största Restaurang
+	</h1>
+
+</nav>
+<article>
+	<!-- <img class="burgare" src="burgare.jpg" alt="Hamburgare">
+	<img class="alsdad" src="slides.jpeg" alt="slider"> -->
+	
+	<div class="w3-content w3-display-container">
+  <img class="mySlides" src="burgareslide.jpg">
+  <img class="mySlides" src="slides.jpeg">
+  <img class="mySlides" src="slides2.jpg">
+  <img class="mySlides" src="burgare.jpg">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+	
+	
+	
+</article>
+<body>
+
+
+
+
+
+
+
+
+
+</body>
