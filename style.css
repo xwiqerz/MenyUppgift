@@ -147,3 +147,36 @@ body {
     left: 0%;
     transform: translate(0%,-50%);
 }
+
+@media only screen and (max-width: 850px) {
+	body{
+		background-color: grey;
+		
+	}
+	.cheeseburgare {
+		margin-left: 13%;
+		
+	}
+	.nuggets {
+		margin-left:13%;
+		
+	}
+	
+	.cheeseburgaretext {
+		margin-left:15%;
+		
+		
+	}
+	.nuggetstext {
+		margin-left:15%;
+		
+		
+	}
+	.bigmactext {
+		margin-left: 65%;
+		
+
+	}
+	
+	
+}
