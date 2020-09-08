@@ -148,6 +148,20 @@ body {
     transform: translate(0%,-50%);
 }
 
+.nuggetslista {
+	margin-left:60%;
+	position: absolute;
+	top: 300px;
+	list-style-type:none;
+	font-weight:bold;
+	
+}
+
+.listbigmac{
+	margin-left:32%;
+	
+}
+
 @media only screen and (max-width: 850px) {
 	body{
 		background-color: grey;
@@ -177,6 +191,12 @@ body {
 		
 
 	}
+	.listbigmac {
+		margin-left:22%;
+		
+	}
 	
 	
 }
+
+
